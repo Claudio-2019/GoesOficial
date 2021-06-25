@@ -4,3 +4,6 @@
 #TabsGoes{
     margin-left: 0.9cm;
 }
+#TabsStyles :hover{
+ color: coral;
+}
