@@ -10,6 +10,8 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { OficinaVirtualComponent } from './oficina-virtual/oficina-virtual.component';
 import { VitrinaComponent } from './vitrina/vitrina.component';
 import { SellosVerdesComponent } from './sellos-verdes/sellos-verdes.component';
+import { PodcastComponent } from './podcast/podcast.component';
+import { WebinarsComponent } from './webinars/webinars.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SellosVerdesComponent } from './sellos-verdes/sellos-verdes.component';
     NoticiasComponent,
     OficinaVirtualComponent,
     VitrinaComponent,
-    SellosVerdesComponent
+    SellosVerdesComponent,
+    PodcastComponent,
+    WebinarsComponent
   ],
   imports: [
     BrowserModule,
