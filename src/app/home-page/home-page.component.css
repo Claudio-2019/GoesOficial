@@ -1,5 +1,6 @@
 #TestImage{
     background-image: url('/assets/FotoHomePage.png');
+    background-size: cover;
 }
 #TitleContactos{
     font-size: 1.6cm;
