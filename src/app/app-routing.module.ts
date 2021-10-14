@@ -9,6 +9,7 @@ import { OficinaVirtualComponent } from './oficina-virtual/oficina-virtual.compo
 import { PodcastComponent } from './podcast/podcast.component';
 import { SellosVerdesComponent } from './sellos-verdes/sellos-verdes.component';
 import { VitrinaComponent } from './vitrina/vitrina.component';
+import { WebinarsComponent } from './webinars/webinars.component';
 
 const routes: Routes = [
   { path: 'Inicio', component: HomePageComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'Vitrina-Estudiantil', component: VitrinaComponent },
   { path: 'Sellos-Verdes', component: SellosVerdesComponent },
   { path: 'Podcast-Goes', component: PodcastComponent },
+  { path: 'Webinars',component:WebinarsComponent},
   { path: '**', redirectTo: 'Inicio' },
   { path: '**', pathMatch: 'full', component: NotFoundPageComponent }
 ];
