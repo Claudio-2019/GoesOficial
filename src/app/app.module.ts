@@ -12,6 +12,7 @@ import { VitrinaComponent } from './vitrina/vitrina.component';
 import { SellosVerdesComponent } from './sellos-verdes/sellos-verdes.component';
 import { PodcastComponent } from './podcast/podcast.component';
 import { WebinarsComponent } from './webinars/webinars.component';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { WebinarsComponent } from './webinars/webinars.component';
     VitrinaComponent,
     SellosVerdesComponent,
     PodcastComponent,
-    WebinarsComponent
+    WebinarsComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,

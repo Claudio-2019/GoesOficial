@@ -1,21 +1,20 @@
-#TestImage{
-    background-image: url('/assets/FotoHomePage.png');
-    background-size: cover;
+.card{
+    border-color: transparent;
 }
-#TitleContactos{
-    font-size: 1.6cm;
-    font-family: 'Lucida Sans';
-    color: rgb(92,44,92);
-    
+
+p{
+    font-size: xx-large;
+    text-align: justify;
+    font-family: 'Arial';
 }
-#ImageLogoGoes{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+li{
+    font-size: 35px;
 }
-#TitleCajaRecursos{
-    font-size:3cm;
-    font-family: 'Lucida Sans'; 
-    color: rgb(223, 131, 12);
+#TituloContactos{
+    color: #5c2c5c;
+}
+#TituloCajaRecursos{
+    font-size: 2.0cm;
+    font-family: Lucida Sans;
+    color: #df830c;
 }
