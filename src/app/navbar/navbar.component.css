@@ -1,9 +1,8 @@
-#NavbarGoes{
-    padding: 0.5cm;
-}
-#TabsGoes{
-    margin-left: 0.9cm;
-}
+
 #TabsStyles :hover{
  color: coral;
+}
+
+li{
+    align-self: center;
 }
